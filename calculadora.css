@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f28852;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,37 +10,46 @@ body {
 }
 
 .calculadora {
-    background-color: #fff;
+    background-color: #f9e8cc;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(255, 123, 0);
     padding: 20px;
     width: 300px;
 }
 
 h1 {
+    font-family: Oswald;
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
+    color: #fc5203;
+}
+
+#Logo{
+    position: fixed;
+    margin-bottom: 37%;
 }
 
 label {
+    font-family: "Syne", sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
     display: block;
 }
 
 input[type="number"] {
-    width: 100%;
+    width: 93%;
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #fc5203;
+    outline-color: rgb(255, 145, 0);
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #fc5203;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -49,7 +58,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #f28852;
 }
 
 #resultados {
@@ -57,6 +66,7 @@ button:hover {
 }
 
 #resultadoGorjeta, #resultadoTotal {
+    font-family: "Syne", sans-serif;
     font-size: 16px;
     margin-bottom: 5px;
 }

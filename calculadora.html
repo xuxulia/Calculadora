@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Gorjeta</title>
     <link rel="stylesheet" href="calculadora.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Syne:wght@400..800&display=swap');
+   </style>
 </head>
 <body>
+    <div id="Logo">
+        <img src="images/logo.png" alt="logo">
+    </div>
     <div class="calculadora">
         <h1>Calculadora de Gorjeta</h1>
         <label for="totalConta">Total da conta:</label>
@@ -17,6 +26,9 @@
 
         <label for="percentualGorjeta">Percentual da gorjeta:</label>
         <input type="number" id="percentualGorjeta" placeholder="Digite o percentual da gorjeta"><br><br>
+
+        <label for="despesas">Despesas Extras:</label>
+        <input type="number" id="despesas" placeholder="Digite o valor das despesas extras"><br><br>
 
         <button id="calcular">Calcular</button><br><br>
 
